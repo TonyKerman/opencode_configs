@@ -11,5 +11,5 @@ cp "$SOURCE_DIR/opencode.json" "$CONFIG_DIR/" 2>/dev/null && echo "已替换 ope
 cp "$SOURCE_DIR/.gitignore" "$CONFIG_DIR/" 2>/dev/null && echo "已替换 .gitignore"
 cp "$SOURCE_DIR/package.json" "$CONFIG_DIR/" 2>/dev/null && echo "已替换 package.json"
 cp "$SOURCE_DIR/bun.lock" "$CONFIG_DIR/" 2>/dev/null && echo "已替换 bun.lock"
-
+cp "$SOURCE_DIR/agent" -r  "$CONFIG_DIR/" 2>/dev/null && echo "已替换 agent"
 echo "替换完成"
